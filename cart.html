@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta name="robots" content="index, follow">
+	<meta name="description" content="The Military Union Brand Book">
+	<meta name="author" content="Brand Book">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="icon" type="image/x-icon" href="images/favicon.png">
+	<title>Eccommerce shop</title>
+	<!-- STYLES -->
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/slick-theme.css" rel="stylesheet">
+	<link href="css/slick.css" rel="stylesheet">
+	<link href="css/fonts.css" rel="stylesheet">
+	<!-- animation css  -->
+  	<link rel="stylesheet" href="css/animate.min.css"/>
+	<!-- Main STYLES -->
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link href="css/responsive.css" rel="stylesheet">
+</head>
+<body> 
+
+<div class="circles-preloader">
+	<span></span>
+</div>
+	
+<header id="header">
+	<nav class="navbar navbar-expand-lg bg-light">
+		<div class="container">
+		  <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"></a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			  <li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="shop.html">Shop</a>
+			  </li>
+			  <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				  Catageories
+				</a>
+				<ul class="dropdown-menu">
+				  <li><a class="dropdown-item" href="#">Balls</a></li>
+				  <li><a class="dropdown-item" href="#">Caps</a></li>
+				  <li><a class="dropdown-item" href="#">Boots</a></li>
+				  <li><a class="dropdown-item" href="#">Accessories</a></li>
+				</ul>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="contact.html">Contact</a>
+			  </li>
+			</ul>
+		  </div>
+		  <div class="nav_icons">
+			<ul>
+				<li>
+					<div class="input-box">
+						<input type="text" placeholder="Search..." />
+						<span class="search">
+							<i class="fal fa-search"></i>
+						</span>
+						<i class="fal fa-times close-icon"></i>
+					</div>
+				</li>
+				<li><a href="#"><i class="fal fa-user-circle"></i></a></li>
+				<li><a href="#"><i class="fal fa-shopping-bag"></i>
+					<span class="cart_number">2</span></a></li>
+			</ul>
+		  </div>
+		</div>
+	  </nav>
+</header>
+
+<!-- =================== end header ====================== -->
+
+<div class="page_link">
+	<div class="container">
+		<div class="row">
+			<ul>
+				<li><a href="index.html">Home</a> ></li>
+				<li><a href="cart.html" class="active">Your Shopping Cart</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<section class="cart_section">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="cart_area">
+					<div class="cart_title">
+						<ul>
+							<li>Product Detail</li>
+							<li>Price</li>
+							<li>quantity</li>
+							<li>Total</li>
+						</ul>
+					</div>
+					<div class="cart_details">
+						<ul>
+							<li>
+								<span>Product Details</span>
+								<div class="cart_inside">
+									<div class="delate_cart">
+										<i class="far fa-trash-alt"></i>
+									</div>
+									<div class="cart_img">
+										<img src="images/rugby-ball-2.png">
+									</div>
+									<div class="detail_inside">
+										<h4>Pumas Replica Rugby Ball by Gilbert</h4>
+										<div class="cart_cat">
+											<p>Balls</p> /
+											<p>Pumas</p>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<span>Price</span>
+								<div class="cart_inside">
+									<p class="price_content">$65.00</p>
+								</div>
+							</li>
+							<li>
+								<span>quantity</span>
+								<div class="cart_inside">
+									<div class="cart_inside">
+										<div class="quantity">
+											<input type="text" name="IncDcr" maxlength="12" value="1" title="" class="input-text" />
+											<div class="qty_inc_dec">
+												<button type="button" onclick="incrementButton(this)">
+													<i class="fas fa-chevron-up increment"></i>
+												</button>
+												<button type="button" class="decrement" onclick="decrementButton(this)">
+													<i class="fas fa-chevron-down"></i>
+												</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<span>Total</span>
+								<div class="cart_inside">
+									<p class="price_content">$65.00</p>
+								</div>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<span>Product Details</span>
+								<div class="cart_inside">
+									<div class="delate_cart">
+										<i class="far fa-trash-alt"></i>
+									</div>
+									<div class="cart_img">
+										<img src="images/rugby-ball.png">
+									</div>
+									<div class="detail_inside">
+										<h4>Pumas Replica Rugby Ball by Gilbert</h4>
+										<div class="cart_cat">
+											<p>Balls</p> /
+											<p>Pumas</p>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<span>Price</span>
+								<div class="cart_inside">
+									<p class="price_content">$65.00</p>
+								</div>
+							</li>
+							<li>
+								<span>quantity</span>
+								<div class="cart_inside">
+									<div class="cart_inside">
+										<div class="quantity">
+											<input type="text" name="IncDcr" maxlength="12" value="1" title="" class="input-text" />
+											<div class="qty_inc_dec">
+												<button type="button" onclick="incrementButton(this)">
+													<i class="fas fa-chevron-up increment"></i>
+												</button>
+												<button type="button" class="decrement" onclick="decrementButton(this)">
+													<i class="fas fa-chevron-down"></i>
+												</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<span>Total</span>
+								<div class="cart_inside">
+									<p class="price_content">$65.00</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				
+                <div class="item_total_area">
+					<div class="continue_shop">
+					  <a href="shop.html">Continue Shopping</a>
+					</div>
+					<div class="coupon_area">
+					  <form>
+						<div class="form-group">
+						  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Coupon code">
+						</div>
+						<div class="apply_btn">
+						  <a href="#">Apply Coupon</a>
+						</div>
+					  </form>
+					</div>
+					<div class="itemtotal">
+					  <p>Item Total: <span>$130.00</span> </p>
+					</div>
+				</div>
+				
+				<div class="total_cart">
+					<h3>Cart Total</h3>
+					<ul>
+						<li>Total</li>
+						<li>$130.00</li>
+					</ul>
+					<button type="button" class="totalbtn">PROCEED TO CHECKOUT</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- =================== end section ====================== -->
+
+
+<!-- =================== end section ====================== -->
+
+
+<!-- =================== end section ====================== -->
+
+
+<!-- =================== end section ====================== -->
+<!-- =================== end section ====================== -->
+
+
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-md-6">
+				<div class="footer_item">
+					<h3>Information</h3>
+					<ul>
+						<li><a href="#">About us</a></li>
+						<li><a href="#">Privacy policy</a></li>
+						<li><a href="#">Terms & conditions</a></li>
+						<li><a href="#">products return</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6">
+				<div class="footer_item">
+					<h3>Categeories</h3>
+					<ul>
+						<li><a href="#">clothes</a></li>
+						<li><a href="#">footwear</a></li>
+						<li><a href="#">balls</a></li>
+						<li><a href="#">jersey</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6">
+				<div class="footer_item">
+					<h3>Follow us</h3>
+					<ul>
+						<li><a href="call:+61492146259"><i class="fas fa-phone"></i> +61492146259</a></li>
+						<li><a href="mailto:contact@ttsportsydney.com.au"><i class="fas fa-envelope"></i> contact@ttsportsydney.com.au</a></li>
+						<li><a href="#"><i class="fas fa-home"></i> Coolalinga NT 0839</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6">
+				<div class="footer_item">
+					<h3>CREDITS</h3>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+					<ul class="socialicon">
+						<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+						<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer_down">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<ul>
+						<li><a href="#"><img src="images/cards_all.svg"></a></li>
+					</ul>
+				</div>
+				<div class="col-lg-6">
+					<p>© Copyright, Rugby Shop, 2024</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!-- =================== end section ====================== -->
+
+<div class="scrolltop">
+	<p><i class="far fa-arrow-up"></i></p>
+</div>
+
+<!-- ============================================ -->
+
+<!-- SCRIPTS -->
+<script src="js/jquery-3.4.1.min.js"></script>	
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.sticky.js"></script>
+<!-- animation  -->
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>
